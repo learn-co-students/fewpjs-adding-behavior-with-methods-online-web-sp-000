@@ -5,15 +5,15 @@
     "passes": 7,
     "pending": 0,
     "failures": 0,
-    "start": "2019-11-07T02:09:26.072Z",
-    "end": "2019-11-07T02:09:26.634Z",
-    "duration": 562
+    "start": "2019-11-11T19:34:42.467Z",
+    "end": "2019-11-11T19:34:43.163Z",
+    "duration": 696
   },
   "tests": [
     {
       "title": "has a class of cat",
       "fullTitle": "cat has a class of cat",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -41,7 +41,7 @@
     {
       "title": "has a class of Bird",
       "fullTitle": "bird has a class of Bird",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -66,7 +66,7 @@
     {
       "title": "has a class of cat",
       "fullTitle": "cat has a class of cat",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -94,7 +94,7 @@
     {
       "title": "has a class of Bird",
       "fullTitle": "bird has a class of Bird",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
