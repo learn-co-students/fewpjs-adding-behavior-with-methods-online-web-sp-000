@@ -6,29 +6,36 @@ class Cat{
         this.name = name;
     }
 
-    function speak(name){
-        return `${name} says meow!`;
+    speak(){
+        return `${this.name} says meow!`;
     }
 
 }
 
 class Dog{
+    
+    constructor(name){
+        this.name = name;
+    }
 
-    function speak(name){
-        return `${name} says woof!`;
+    speak(){
+        return `${this.name} says woof!`;
     }
 }
 
 class Bird{
 
-    let instance = "";
+    constructor(name) {
+        this.name = name;
+      }
 
-    if( inatance === "male"){
-        return `It's me! ${name}, the parrot!`;
+    speak() {
+    if (this.name == "male") {
+      return `It's me! ${this.name}, the parrot!`
+    } else {
+      return `${this.name} says squawk!`
     }
-    else {
-        return `${name} says squawk!`;
-    }
+  }
 
 }
 
