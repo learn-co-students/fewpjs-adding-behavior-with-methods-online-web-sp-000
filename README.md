@@ -29,17 +29,7 @@ We'll also write methods that leverage these properties.
     will store those values as _properties_.
 
 ```js
-class Cat {
-  //...
-}
 
-class Dog {
-  //...
-}
-
-class Bird {
-  //...
-}
 ```
 
 For each `class`, create the method `speak`.
