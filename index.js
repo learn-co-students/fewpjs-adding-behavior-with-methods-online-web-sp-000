@@ -6,7 +6,7 @@ class Cat {
   }
 
   speak(){
-    console.log(`${name} says meow!`)
+    return `${this.name} says meow!`
   }
 }
 
@@ -17,9 +17,9 @@ class Dog {
   }
 
   speak(){
-    console.log(`${name} says woof!`)
+    return `${this.name} says woof!`
   }
-}ç
+}
 
 class Bird {
   constructor(name, sex){
@@ -27,9 +27,10 @@ class Bird {
     this.sex = sex
   }
 
-  if Bird.sex === male {
-    console.log(`It's me! ${name}, the parrot!`)
+  speak(){
+    if (this.sex == "male") {
+      return `It's me! ${this.name}, the parrot!`
   } else {
-    console.log(`${name} says squawk!`)
-  }
+      return `${this.name} says squawk!`
+  }}
 }
